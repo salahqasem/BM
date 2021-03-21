@@ -25,3 +25,14 @@ you can find jacoco report in target/site/jacoco
 ```mvn verify sonar:sonar```
 
 you can find the report here: https://sonarcloud.io/dashboard?id=salahqasem_BM
+
+
+**NOTE:**
+
+there are two endpoints one for admin, and one for user
+
+1- `/admin/statement/{account_id}`
+
+2- `/statement/{account_id}`
+
+the user api is accessible by admin.
